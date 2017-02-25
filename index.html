@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ping-Pong</title>
+</head>
+
+<body id="thatBod">
+    <div class="jumbotron">
+        <div class="col-md-3" id="ninjaLeft">
+            <img src="img/ninja-ping-pong.jpg">
+        </div>
+        <div class="col-lg-6">
+            <h1>Ping-Pong</h1>
+        </div>
+        <div class="col-md-3" id="ninjaRight">
+            <img src="img/ninja-ping-pong.jpg">
+        </div>
+    </div>
+
+    <!-- close jumbotron -->
+    <div id="sidebar" class="container col-lg-4">
+        <h3>About Ping-Pong:</h3>
+        <p><a href="https://github.com/Minneh/ping-pong.github.io/blob/master/README.md">Read Me</a></p>
+
+        <h3>Github Username/URL:</h3>
+        <p><a href="https://github.com/Minneh">Minneh</a></p>
+
+        <h3>Repository URL:</h3>
+        <p><a href="https://github.com/Minneh/ping-pong.github.io">https://github.com/Minneh/ping-pong.github.io</a></p>
+
+        <h3>Created by:</h3>
+        <p>Minneh Mugo</p>
+
+    </div>
+    <div id="mainWindow" class="container col-lg-8">
+        <h2>Let's Play!</h2>
+        <h3>Rules</h3>
+        <p>Ping-pong will count up to your number from 1 with the following exceptions:</p>
+        <ol>
+            <li>Numbers divisible by 3 become "ping"</li>
+            <li>Numbers divisible by 5 become "pong"</li>
+            <li>Numbers divisible by 15 become "pingpong"</li>
+        </ol>
+        <form class="inline input-group" action="" method="">
+            <input id="input" type="text" class="form-control" name="input" placeholder="Enter your number here" onkeypress="return event.charCode === 0 || /\d/.test(String.fromCharCode(event.charCode));"><button class="btn btn-primary" type="submit">Play!</button>
+        </form>
+        <div id="results" class="container">
+            <ul id="list">
+
+            </ul>
+        </div>
+    </div>
+    <!-- end of container -->
+
+    <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

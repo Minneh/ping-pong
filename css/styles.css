@@ -1,0 +1,44 @@
+.jumbotron{
+  height:400px;
+}
+h1{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 250px;
+}
+#input{
+  width: 300px;
+}
+#results {
+  display: none;
+}
+#sidebar{
+  float: left;
+  border-right: 1px solid #FFFFFF;
+}
+#mainwindow{
+  float: right;
+}
+#thatBod{
+  background-color: maroon;
+  color:white;
+  font-family: 'Tangerine', cursive;
+}
+.jumbotron{
+  font-family: 'Tangerine', cursive;
+  background-color: black;
+  color: white;
+}
+p{
+  font-size: 12pt;
+}
+#ninjaLeft{
+  height: auto;
+  width: 200px;
+  float: left;
+}
+#ninjaRight{
+  float: right;
+  height: auto;
+  width: 200px;
+}
