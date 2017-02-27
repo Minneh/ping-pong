@@ -38,6 +38,7 @@ p{
   float: left;
 }
 #ninjaRight{
+  margin-right: 15px;
   float: right;
   height: auto;
   width: 200px;
