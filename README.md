@@ -1,6 +1,6 @@
 # Project Name: Ping-Pong
 
-##Project Site: <https://minneh.github.io/>
+##Project Site: <https://minneh.github.io/ping-pong.github.io/>
 
 ## Created by: Minneh Mugo
 
@@ -17,14 +17,17 @@ _Example Input: 5_ _Output: 1, 2, ping, 4, pong_
 # Specifications:
 The program requests numeric input from the user.
 The user enters this input which is then stored as the limiting variable.
-The program then loops through numbers beginning at one and ending at the user's number, checking at each iteration whether the number is divisible by 3, 5 and fifteen. If the current number is found to be divisible by any of the aforementioned numbers, the corresponding output is given to the user in list format.
+The program then loops through numbers beginning at one and ending at the user's number, checking at each iteration whether the number is divisible by 3, 5 and/or 15. If the current number is found to be divisible by any of the aforementioned numbers, the corresponding output (as outlined above) is given to the user in list format.
 
 #Technologies Used:
--HTML
--CSS
--JavaScript
+- HTML
+- CSS
+- JavaScript
 
 #Setup:
+- Open your preferred browser
+- Head to the url https://minneh.github.io/ping-pong.github.io/
+- Begin playing!
 
 #Contributing
 
