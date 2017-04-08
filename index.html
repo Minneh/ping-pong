@@ -12,6 +12,8 @@
 </head>
 
 <body id="thatBod">
+
+    <!-- begin jumbotron section -->
     <div class="jumbotron">
         <div class="col-md-3" id="ninjaLeft">
             <img src="img/ninja-ping-pong.jpg">
@@ -23,8 +25,9 @@
             <img src="img/ninja-ping-pong.jpg">
         </div>
     </div>
+    <!-- close jumbotron section -->
 
-    <!-- close jumbotron -->
+    <!-- Begin sidebar section and set width to a third of the page -->
     <div id="sidebar" class="container col-lg-4">
         <h3>About Ping-Pong:</h3>
         <p><a href="https://github.com/Minneh/ping-pong.github.io/blob/master/README.md">Read Me</a></p>
@@ -33,12 +36,14 @@
         <p><a href="https://github.com/Minneh">Minneh</a></p>
 
         <h3>Repository URL:</h3>
-        <p><a href="https://github.com/Minneh/ping-pong.github.io">https://github.com/Minneh/ping-pong.github.io</a></p>
+        <p><a href="https://github.com/Minneh/ping-pong.github.io">Github</a></p>
 
         <h3>Created by:</h3>
         <p>Minneh Mugo</p>
-
     </div>
+    <!-- End sidebar section -->
+
+    <!-- Begin main window section and set width to two thirds of the page -->
     <div id="mainWindow" class="container col-lg-8">
         <h2>Let's Play!</h2>
         <h3>Rules</h3>
@@ -48,8 +53,9 @@
             <li>Numbers divisible by 5 become "pong"</li>
             <li>Numbers divisible by 15 become "pingpong"</li>
         </ol>
-        <form class="inline input-group" action="" method="">
-            <input id="input" type="text" class="form-control" name="input" placeholder="Enter your number here" onkeypress="return event.charCode === 0 || /\d/.test(String.fromCharCode(event.charCode));"><button class="btn btn-primary" type="submit">Play!</button>
+        <form class="inline input-group">
+            <input id="input" type="text" class="form-control" name="input" placeholder="Enter your number here" onkeypress="return event.charCode === 0 || /\d/.test(String.fromCharCode(event.charCode));">
+            <button class="btn btn-primary" type="submit">Play!</button>
         </form>
         <div id="results" class="container">
             <ul id="list">
@@ -57,8 +63,9 @@
             </ul>
         </div>
     </div>
-    <!-- end of container -->
+    <!-- End of main window section -->
 
+    <!-- Include necessary scripting -->
     <script src="js/jquery-3.1.1.min.js" charset="utf-8"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
 </body>
