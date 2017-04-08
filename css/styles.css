@@ -1,37 +1,53 @@
-.jumbotron{
-  height:400px;
-}
+/*Format main heading*/
 h1{
   text-align: center;
   padding-top: 80px;
   padding-left: 250px;
 }
+
+/*Set width of inout text-box*/
 #input{
   width: 300px;
 }
+
+/*Keep results section invisible on first load*/
 #results {
   display: none;
 }
+
+/*Set sidebar to left side of page and place border to the right*/
 #sidebar{
   float: left;
   border-right: 1px solid #FFFFFF;
 }
+
+/*Set main window to right of page*/
 #mainwindow{
   float: right;
 }
+
+/*Main body section*/
 #thatBod{
   background-color: maroon;
   color:white;
   font-family: 'Tangerine', cursive;
 }
+
+/*Begin styling of jumbotron at top of page*/
 .jumbotron{
   font-family: 'Tangerine', cursive;
   background-color: black;
   color: white;
+  height:400px;
 }
+/*End styling of jumbotron at top of page*/
+
+/*Set text font size to 12*/
 p{
   font-size: 12pt;
 }
+
+/*Beginning of formatting of ninja ping-pong pictures at top of page*/
 #ninjaLeft{
   height: auto;
   width: 200px;
@@ -43,3 +59,4 @@ p{
   height: auto;
   width: 200px;
 }
+/*End of formatting of ninja ping-pong pictures at top of page*/
